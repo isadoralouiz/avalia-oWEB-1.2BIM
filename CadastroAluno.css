@@ -1,0 +1,117 @@
+body {
+    background-color: #e6f4ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    border-top: 4px solid #2e7d32;
+    border-radius: 15px 15px;
+    padding: 30px 25px;
+  }
+  
+  .topo {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .topo img {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+  }
+  
+  form input[type="email"] {
+    border-color: #000000;
+    background-color: white;
+  }
+
+  form input[type="email"] {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+  }
+
+  form input[type="number"] {
+    border-color: #000000;
+    background-color: white;
+  }
+
+  form input[type="number"] {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+  }
+  
+  form input[type="text"] {
+    border-color: #000000;
+    background-color: white;
+  }
+  
+  form input#cep {
+    max-width: 140px;
+  }
+
+  .botao {
+  background-color: #145214;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.botao:hover {
+  background-color: #206b20;
+}
+
+.botaoLista {
+  background-color: #145214;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.botaoLista:hover {
+  background-color: #206b20;
+}
+
+  
