@@ -8,5 +8,50 @@
 <body>
     
     <h1>Cadastro de Alunos </h1>
+
+    <div class="container">
+        <div class="topo">
+          <img src="imagem/ifpr.png" alt="Logo" />
+          <h1>Consulta de CEP</h1>
+        </div>
+    
+        <form method="get" action=".">
+    
+          <label for="nome">Nome:
+            <input name="cep" type="text" id="nome" size="10" maxlength="9" />
+          </label>
+    
+          <label for="cep">Cep:
+            <input name="cep" type="text" id="cep" size="10" maxlength="9" />
+          </label>
+    
+          <label for="rua">Rua:
+            <input name="rua" type="text" id="rua" size="60" />
+          </label>
+    
+          <label for="complemento">Complemento:
+            <input name="complemento" type="text" id="complemento" size="60" />
+          </label>
+    
+          <label for="bairro">Bairro:
+            <input name="bairro" type="text" id="bairro" size="40" />
+          </label>
+    
+          <label for="cidade">Cidade:
+            <input name="cidade" type="text" id="cidade" size="40" />
+          </label>
+    
+          <label for="uf">Estado:
+            <input name="uf" type="text" id="uf" size="2" />
+          </label>
+    
+          <label for="ddd">DDD:
+            <input name="ddd" type="text" id="ddd" size="5" />
+          </label>
+        </form>
+    
+    <button type="button" class="botao" onclick="salvar()">Salvar</button>
+    <button type="button" class="botaoLista" onclick="salvarDados()">Salvar</button>
+      </div>
 </body>
 </html>
