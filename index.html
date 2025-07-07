@@ -34,7 +34,7 @@
                 <input name="rua" type="text" id="rua" size="60" />
             </label>
 
-            <label for="numero">Número:<input type="number" name="" id="">
+            <label for="numero">Número:<input type="number" name="" id="numero">
             </label>
 
             <label for="complemento">Complemento:
@@ -56,9 +56,13 @@
         </form>
 
 
-        <button type="button" class="botaoLista" onclick="salvarDados()">Cadastrar</button>
-        <input type="text">
-        <ul id="endereco" class="lista-endereco"></ul>
+        <button type="button" class="botaoLista" onclick="salvarDados()">Cadastrar</button><br>
+
+        <label for="pesquisa">Pesquisa por usuário ou nome:
+            <input name="pesquisa" type="text" id="pesquisa"/>
+        </label>
+
+        <ul id="enderecos" class="lista-endereco"></ul>
     </div>
 </body>
 

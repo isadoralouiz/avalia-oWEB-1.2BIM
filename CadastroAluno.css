@@ -3,14 +3,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
     padding: 20px;
-    margin: 0;
+    margin: 10px;
   }
   
   .container {
     max-width: 500px;
     margin: 0 auto;
     background: white;
-    border-top: 4px solid #2e7d32;
     border-radius: 15px 15px;
     padding: 30px 25px;
   }
@@ -40,39 +39,51 @@ body {
     color: black;
     background-color: white;
   }
-  
-  form input[type="email"] {
-    border-color: #000000;
-    background-color: white;
-  }
 
-  form input[type="email"] {
-    width: 100%;
-    padding: 8px 12px;
-    font-size: 1rem;
-    border-radius: 6px;
-    color: black;
-    background-color: white;
-  }
-
-  form input[type="number"] {
-    border-color: #000000;
-    background-color: white;
-  }
-
-  form input[type="number"] {
-    width: 100%;
-    padding: 8px 12px;
-    font-size: 1rem;
-    border-radius: 6px;
-    color: black;
-    background-color: white;
-  }
-  
   form input[type="text"] {
     border-color: #000000;
     background-color: white;
   }
+  
+  form input[type="text"]:hover {
+    border-color: #7dd5eb;
+  } 
+
+  form input[type="email"] {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+  }
+
+  form input[type="email"] {
+    border-color: #000000;
+    background-color: white;
+  }
+
+form input[type="email"]:hover {
+    border-color: #7dd5eb;
+  } 
+
+  form input[type="number"] {
+    border-color: #000000;
+    background-color: white;
+  }
+
+  form input[type="number"] {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+  }
+  
+  form input[type="number"]:hover {
+    border-color: #7dd5eb;
+  } 
   
   form input#cep {
     max-width: 140px;

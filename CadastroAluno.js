@@ -67,7 +67,7 @@ function salvarDados() {
 
   alert("Endereço salvo com sucesso!");
 
-  const div = document.getElementById("endereco");
+  const div = document.getElementById("enderecos");
   div.innerHTML = "";
 
   if (lista.length === 0) {
@@ -78,13 +78,12 @@ function salvarDados() {
   lista.forEach((end, index) => {
     const bloco = document.createElement("div");
     bloco.innerHTML = `
-        <strong>Endereço ${index + 1}</strong>
-        CEP: ${end.cep}<br>
-        Rua: ${end.rua}<br>
-        Complemento: ${end.complemento}<br>
-        Bairro: ${end.bairro}<br>
-        Cidade: ${end.cidade} - ${end.uf}<br>
-      `;
+      ${end.nome}<br>
+      ${end.email}<br>
+      ${end.rua}, ${end.numero}<br>
+      ${end.bairro}, ${end.cidade} - ${end.uf} <br>
+      CEP: ${end.cep}<br>
+    `;
     div.appendChild(bloco);
   });
 }
